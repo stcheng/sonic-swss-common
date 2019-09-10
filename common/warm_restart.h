@@ -57,6 +57,8 @@ public:
     static void setWarmStartState(const std::string &app_name,
                                   WarmStartState     state);
 
+    static WarmStartState getWarmStartState(const std::string &app_name);
+
     static uint32_t getWarmStartTimer(const std::string &app_name,
                                       const std::string &docker_name);
 
